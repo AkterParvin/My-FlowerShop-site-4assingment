@@ -68,8 +68,6 @@
     font-size: 40px;
     font-weight: 800;
     line-height: normal;
-
-
 }
 
 
@@ -123,10 +121,8 @@ main {
     line-height: 35px;
     text-decoration-line: underline;
     margin-top: 30px;
-    
+
 }
-
-
 
 .blue {
     background-color: rgba(5, 151, 160, 0.15);
@@ -207,6 +203,7 @@ main {
 }
 
 /* Sale section Style  */
+
 .sale {
     display: flex;
     justify-content: center;
@@ -241,11 +238,11 @@ main {
 
 }
 
-.rose{
+.rose {
     height: 400px;
     width: 290px;
     padding-right: 100px;
-    
+
 }
 
 
@@ -319,12 +316,63 @@ main {
 
 }
 
+/* Promotion Section  style  */
+
+.promotions-img {
+    background-image: url(imgs-flower/promotion\ picture.png), linear-gradient(rgba(219, 81, 108, 0.669), rgb(105, 169, 247));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin-top: 100px;
+}
+
+.blog-site {
+    display: flex;
+    justify-content: center;
+    padding-top: 420px;
+    gap: 20px;
+}
+
+.blog-textsite {
+    background-color: rgb(218, 206, 218);
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 6px 8px rgba(134, 131, 134, 0.432);
+    height: 400px;
+    width: 500px;
+}
+
+.blog-title {
+    padding: 80px 10px 20px 10px;
+
+}
+
+.blog-para {
+    padding: 0px 20px 20px 20px;
+
+}
+
+.blog-imgsite {
+    box-shadow: 6px 8px rgba(134, 131, 134, 0.432);
+    border-radius: 10px;
+    border: none;
+}
+
+.flower-blog {
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+}
+
 /* footer section style  */
 
 .footer-container {
     background-color: #111010;
     padding: 120px;
-    margin-top: 100px;
+    margin-top: 250px;
 }
 
 .footer-title {
