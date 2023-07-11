@@ -11,17 +11,13 @@
     display: flex;
     justify-content: space-around;
     width: auto;
+    height: 100%;
     background: rgba(229, 84, 115, 0.10);
-    padding-left: 200px;
-    padding-top: 200px;
-    gap: 95px;
+    padding-left:150px ;
+    padding-top: 50px;
+    
 }
 
-.banner-text {
-    padding-right: 100px;
-    padding-top: 100px;
-
-}
 
 .banner-title {
     color: #272727;
@@ -29,6 +25,8 @@
     font-size: 80px;
     font-weight: 700;
     line-height: normal;
+    padding-top: 50px;
+
 }
 
 .banner-para {
@@ -43,22 +41,25 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    padding: 25px 40px;
+    padding: 21px 46px;
     border-radius: 8px;
     border: none;
     background: #E55473;
 
 }
 
-.img-bannerflower {
-    padding-right: 70px;
+.banner-image{
+   
+    margin-bottom: -3px;
 }
 
 /* Body part starts from here */
+
+
 .featured-flower {
     text-align: center;
     margin-top: 170px;
-    margin-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .common-title {
@@ -67,22 +68,27 @@
     font-size: 40px;
     font-weight: 800;
     line-height: normal;
+    color: #272727;
+  
 }
 
 
 .common-para {
-    padding: 20px 600px;
+    padding: 20px 0px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
+
 /* three blocks of flowers style  */
 .three-block {
     display: flex;
     justify-content: center;
     gap: 24px;
+    /* margin: 40px 240px 30px 240px; */
+    margin-bottom: 150px;
 }
 
 
@@ -121,14 +127,15 @@
     background-position: center;
 
 }
-.blue-tag{
+
+.blue-tag {
     color: #272727;
     text-align: center;
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
-    margin: 90px;
+    margin-top: 89px;
 
 }
 
@@ -147,7 +154,8 @@
     padding-left: 67px;
 
 }
-.green-tag{
+
+.green-tag {
     color: #272727;
     text-align: center;
     font-size: 24px;
@@ -160,11 +168,81 @@
 
 .icon-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
-    gap: 100px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin: 100px;
+    margin: 120px 180px;
+    padding:60px;
+
+}
+
+.icon-para {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-top: 20px;
+}
+
+/* Sale section Style  */
+.sale {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: rgba(229, 84, 115, 0.05);
+    height: 620px;
+    
+
+}
+.sale-text{
+    padding: 220px 50px 150px 350px;
+    text-align: center;
+   }
+
+.color-primary {
+    color: #E55473;
+}
+
+.sale-para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    align-items: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px ;
+
+}
+
+.rose{
+ 
+    padding: 100px 400px 150px 10px;
+}
+
+/* instagram section style  */
+
+.insta-text{
+    margin-top: 120px;
+   
+}
+.flower-insta{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.deal-pic{
+    /* margin: 120px 220px; */
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
 
 }
