@@ -13,9 +13,9 @@
     width: auto;
     height: 100%;
     background: rgba(229, 84, 115, 0.10);
-    padding-left:150px ;
+    padding-left: 150px;
     padding-top: 50px;
-    
+
 }
 
 
@@ -48,8 +48,8 @@
 
 }
 
-.banner-image{
-   
+.banner-image {
+
     margin-bottom: -3px;
 }
 
@@ -69,7 +69,7 @@
     font-weight: 800;
     line-height: normal;
     color: #272727;
-  
+
 }
 
 
@@ -80,6 +80,10 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+main {
+    max-width: 1920px;
 }
 
 /* three blocks of flowers style  */
@@ -173,7 +177,7 @@
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     margin: 120px 180px;
-    padding:60px;
+    padding: 60px;
 
 }
 
@@ -193,14 +197,16 @@
     align-items: center;
     text-align: center;
     background: rgba(229, 84, 115, 0.05);
-    height: 620px;
-    
+    width: auto;
+    padding: 100px;
+
 
 }
-.sale-text{
-    padding: 220px 50px 150px 350px;
+
+.sale-text {
+    /* padding: 220px 50px 150px 350px; */
     text-align: center;
-   }
+}
 
 .color-primary {
     color: #E55473;
@@ -215,34 +221,82 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    padding: 20px ;
+    padding: 20px;
 
 }
 
-.rose{
- 
-    padding: 100px 400px 150px 10px;
+.rose {
+
+    /* padding: 100px 400px 150px 10px; */
 }
 
 /* instagram section style  */
-
-.insta-text{
-    margin-top: 120px;
-   
+.insta-container {
+    margin: 50px 100px;
 }
-.flower-insta{
+
+.insta-text {
+    padding-top: 100px;
+
+}
+
+.flower-insta {
     display: flex;
     justify-content: center;
-    gap: 24px;
-    margin-top: 24px;
+    gap: 20px;
+    padding: 30px;
 }
 
-.deal-pic{
-    /* margin: 120px 220px; */
+.insta-flower-img {
+    height: 360px;
+    width: 300px;
+}
+
+
+.deal-section {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    margin: 50px 100px;
+
+
+}
+
+
+
+.deal-section {
+    height: 410px;
+    width: 1260px;
+    margin: auto;
+    background-image: url(imgs-flower/Rectangle\ 9.png);
     background-position: center;
     background-repeat: no-repeat;
-    width: auto;
-    height: 100%;
+    background-size: cover;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.deal-text {
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.form-set {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.form-email input {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 500px 20px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FFF;
 
 }
